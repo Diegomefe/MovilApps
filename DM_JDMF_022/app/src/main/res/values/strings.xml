@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DM_JDMF_02</string>
+    <string name="nombre">Ingresa tu nombre</string>
+    <string name="etNombre">Ingresa tu nombre</string>
+    <string name="tvSaludo">Hola, soy </string>
+    <string name="btnSaludo">Saludo</string>
+</resources>
