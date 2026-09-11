@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">DM_JDMF_03</string>
+    <string name="etPies">Ingrese la cantidad en pies</string>
+    <string name="tvPies">Pies:</string>
+    <string name="tvMetros">Metros:</string>
+    <string name="etMetros">Ingrese la cantidad en metros</string>
+    <string name="btnPies">Pies</string>
+    <string name="btnMetros">Metros</string>
+</resources>
