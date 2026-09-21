@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">DM_JDMF_05</string>
+    <string name="textoDisplay">0</string>
+    <string name="texto7">7</string>
+    <string name="texto8">8</string>
+    <string name="texto9">9</string>
+    <string name="texto4">4</string>
+    <string name="texto5">5</string>
+    <string name="texto6">6</string>
+    <string name="texto1">1</string>
+    <string name="texto2">2</string>
+    <string name="texto3">3</string>
+    <string name="textoDiv">/</string>
+    <string name="textoMas">+</string>
+    <string name="textoMenos">-</string>
+    <string name="texto0">0</string>
+    <string name="textoMult">*</string>
+    <string name="textoIgual">=</string>
+    <string name="textoPunto">.</string>
+    <string name="textoResiduo">%</string>
+    <string name="textoPar1">(</string>
+    <string name="textoPar2">)</string>
+    <string name="textoClear">C</string>
+</resources>

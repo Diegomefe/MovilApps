@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MN_JDMF_04</string>
+    <string name="btnDiv">/</string>
+    <string name="tvNum2">Ingresa un número</string>
+    <string name="tvResult">0</string>
+    <string name="tvNum1">Ingresa un número</string>
+    <string name="etNum1">Ingresa un número</string>
+    <string name="etNum2">Ingrese un número</string>
+    <string name="btnSum">+\n</string>
+    <string name="btnMulti">*</string>
+    <string name="btnRest">-</string>
+</resources>
