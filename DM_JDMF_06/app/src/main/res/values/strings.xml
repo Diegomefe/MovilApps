@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">DM_JDMF_06</string>
+    <string name="texto_list">Tipos de listados</string>
+    <string name="texto_listViewBasico">ListView Basico</string>
+    <string name="listview_personalizado">ListView Personalizado</string>
+    <string name="recyclerview_basico">RecyclerView basico</string>
+    <string name="recycleview_personalizado">RecycleView Personalizado</string>
+    <string name="regresar">Regresar</string>
+    <string name="nombre">José Diego Mejía Félix</string>
+    <string name="mensaje">Estem quetibadecir...</string>
+    <string name="hora">8:00 p.m.</string>
+</resources>
