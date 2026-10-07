@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:orientation="vertical"
+        android:background="#1C45FF">
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/chat_blanco"
+            android:layout_marginTop="50dp">
+        </ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/chatapp"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            android:textAlignment="center"
+            android:textStyle="bold">
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/conecta_con_tus_amigos"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp">
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        
+        <EditText
+            android:id="@+id/etUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/usuario_o_correo"
+            android:textStyle="bold"
+            android:drawableStart="@drawable/sobre"
+            android:drawablePadding="30dp"
+            android:paddingStart="15dp"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginTop="30dp">
+        </EditText>
+
+        <EditText
+            android:id="@+id/etContrasena"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/constrase_a"
+            android:textStyle="bold"
+            android:drawableStart="@drawable/candado"
+            android:drawableEnd="@drawable/ojo"
+            android:drawablePadding="30dp"
+            android:paddingStart="15dp"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginTop="20dp">
+        </EditText>
+
+        <Button
+            android:id="@+id/btnInicioSesion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/iniciar_sesi_n"
+            android:layout_margin="20dp"
+            android:background="@drawable/forma_rec"
+            app:backgroundTint="@null">
+        </Button>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="22dp">
+            </CheckBox>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/guardar_sesi_n_iniciada"
+                android:textSize="16sp"
+                android:layout_marginStart="10dp">
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/o"
+                android:textAlignment="center"
+                android:textSize="17sp"
+                android:layout_margin="20sp">
+            </TextView>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnCrearCuenta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/crear_una_cuenta"
+            android:background="@drawable/contorno_azul"
+            app:backgroundTint="@null"
+            android:layout_marginHorizontal="20dp"
+            android:textColor="#3055FF">
+        </Button>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/olvidaste_tu_constrase_a"
+            android:backgroundTint="@color/white"
+            android:textColor="#3055FF"
+            android:layout_marginTop="10dp">
+        </Button>
+
+    </LinearLayout>
+
+</LinearLayout>

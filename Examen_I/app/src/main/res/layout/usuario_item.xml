@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/ivUser"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_margin="10dp"
+        android:scaleType="centerCrop"
+        android:background="@color/white"
+        app:shapeAppearanceOverlay="@style/Circulo"
+        android:src="@drawable/perfil">
+    </com.google.android.material.imageview.ShapeableImageView>
+
+    <LinearLayout
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical"
+        android:layout_width="200dp"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/tvUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nombre"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold">
+        </TextView>
+        <TextView
+            android:id="@+id/tvUltimoMensaje"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="@string/mensaje">
+        </TextView>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/btnFlechaDer"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="50dp"
+        android:src="@drawable/flecha_der"
+        app:tint="#9E9E9E" />
+
+</LinearLayout>

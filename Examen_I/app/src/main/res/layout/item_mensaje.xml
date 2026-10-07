@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingHorizontal="12dp"
+    android:paddingVertical="4dp">
+
+    <!-- Mensaje Recibido (Izquierda) -->
+    <LinearLayout
+        android:id="@+id/layoutRecibido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:background="@drawable/mensaje_recibido"
+        android:maxWidth="280dp"
+        android:orientation="vertical"
+        android:paddingHorizontal="12dp"
+        android:paddingVertical="8dp">
+
+        <TextView
+            android:id="@+id/txtTextoRecibido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mensaje_recibido"
+            android:textColor="#212121"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/txtHoraRecibido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="@string/_09_30"
+            android:textColor="#757575"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+    <!-- Mensaje Enviado (Derecha) -->
+    <LinearLayout
+        android:id="@+id/layoutEnviado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:background="@drawable/mensaje_enviado"
+        android:maxWidth="280dp"
+        android:orientation="vertical"
+        android:paddingHorizontal="12dp"
+        android:paddingVertical="8dp">
+
+        <TextView
+            android:id="@+id/txtTextoEnviado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mensaje_enviado"
+            android:textColor="@color/white"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/txtHoraEnviado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="2dp"
+            android:text="@string/hora"
+            android:textColor="#D9FFFFFF"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+</LinearLayout>

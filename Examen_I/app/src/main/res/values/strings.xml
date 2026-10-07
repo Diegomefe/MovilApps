@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Examen_I</string>
+    <string name="chatapp">ChatApp</string>
+    <string name="conecta_con_tus_amigos">Conecta con tus amigos</string>
+    <string name="usuario_o_correo">Usuario o correo</string>
+    <string name="constrase_a">Constraseña</string>
+    <string name="iniciar_sesi_n">Iniciar sesión</string>
+    <string name="guardar_sesi_n_iniciada">Guardar sesión iniciada</string>
+    <string name="o">o</string>
+    <string name="crear_una_cuenta">Crear una cuenta</string>
+    <string name="usuarios">Usuarios</string>
+    <string name="chat">Chat</string>
+    <string name="perfil">Perfil</string>
+    <string name="nombre">Nombre</string>
+    <string name="mensaje">Mensaje</string>
+    <string name="usuario">Usuarios</string>
+    <string name="mensaje_recibido">Mensaje recibido</string>
+    <string name="_09_30">09:30</string>
+    <string name="mensaje_enviado">Mensaje enviado</string>
+    <string name="hora">09:30 ✓✓</string>
+    <string name="ana_garc_a">Ana García</string>
+    <string name="en_l_nea">● En línea</string>
+    <string name="olvidaste_tu_constrase_a">¿Olvidaste tu constraseña?</string>
+</resources>
