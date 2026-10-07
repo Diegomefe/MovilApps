@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">PracticaChat</string>
+    <string name="todos">Todos</string>
+    <string name="no_le_dos">No leídos</string>
+    <string name="favoritos">Favoritos</string>
+    <string name="grupos">Grupos</string>
+    <string name="chats">Chats</string>
+    <string name="novedades">Novedades</string>
+    <string name="llamadas">Llamadas</string>
+    <string name="nombre">Nombre</string>
+    <string name="mensaje">Estem quetibadecir...</string>
+    <string name="hora">8:00 p.m.</string>
+    <string name="guasap">Guasap</string>
+    <string name="status">Status</string>
+    <string name="estados">Estados</string>
+    <string name="canales">Canales</string>
+    <string name="explorar">Explorar</string>
+</resources>
