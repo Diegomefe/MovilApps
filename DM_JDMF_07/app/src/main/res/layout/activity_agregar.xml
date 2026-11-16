@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:paddingHorizontal="24dp"
+    android:paddingTop="16dp"
+    android:background="@android:color/white">
+
+    <TextView
+        android:id="@+id/tvLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/noe"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/rojo" />
+
+    <TextView
+        android:id="@+id/tvTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/nueva"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/e"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:textColor="@color/rojo" />
+
+    <EditText
+        android:id="@+id/etNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese nombre mascota"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:inputType="textPersonName"
+        android:paddingVertical="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Raza"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:textColor="@color/rojo" />
+
+    <EditText
+        android:id="@+id/etRaza"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese raza"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:inputType="text"
+        android:paddingVertical="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Edad"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:textColor="@color/rojo" />
+
+    <EditText
+        android:id="@+id/etEdad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese la edad"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:inputType="number"
+        android:paddingVertical="8dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+         />
+
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/guardar"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:background="@drawable/forma_rec"
+        android:textColor="@android:color/white"
+        app:backgroundTint="@null"
+        android:layout_marginBottom="12dp" />
+
+
+    <Button
+        android:id="@+id/btnRegresar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/regresar"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:background="@drawable/btn_gris"
+        android:layout_marginBottom="24dp"
+        app:backgroundTint="@null" />
+
+</LinearLayout>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:padding="25dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/nube"
+            android:layout_marginTop="30dp">
+        </ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/upiiz_pet"
+            android:textColor="@color/gris"
+            android:textSize="35sp"
+            android:textAlignment="center"
+            android:textStyle="bold">
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ingresar"
+            android:textSize="35sp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp">
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hola_que_gusto_verte_de_nuevo"
+            android:textColor="@color/gris"
+            android:layout_marginStart="20dp"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp">
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/email"
+            android:textStyle="bold"
+            android:textColor="#FF5454"
+            android:layout_marginStart="20dp"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp">
+        </TextView>
+
+        <EditText
+            android:id="@+id/etCorreo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/ingrese_su_correo_electronico"
+            android:textStyle="bold"
+            android:drawableStart="@drawable/sobre"
+            android:drawablePadding="30dp"
+            android:paddingStart="15dp"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginTop="10dp">
+        </EditText>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/password"
+            android:textStyle="bold"
+            android:textColor="#FF5454"
+            android:layout_marginStart="20dp"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp">
+        </TextView>
+
+        <EditText
+            android:id="@+id/etContrasena"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ingrese su contraseña"
+            android:textStyle="bold"
+            android:drawableStart="@drawable/candado"
+            android:drawableEnd="@drawable/ojo"
+            android:drawablePadding="30dp"
+            android:paddingStart="15dp"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginTop="20dp">
+        </EditText>
+
+        <Button
+            android:id="@+id/btnIngresar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ingresar"
+            android:layout_margin="20dp"
+            android:background="@drawable/forma_rec"
+            app:backgroundTint="@null">
+        </Button>
+
+        <Button
+            android:id="@+id/btnRegistrarse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/registrarse"
+            android:layout_margin="20dp"
+            android:background="@drawable/forma_rec"
+            app:backgroundTint="@null">
+        </Button>
+
+    </LinearLayout>
+
+</LinearLayout>
