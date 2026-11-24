@@ -3,7 +3,7 @@ package com.upiiz.dm_jdmf_08.models;
 import java.util.List;
 
 public class Cliente {
-    private Long id;
+    private int id;
     private String nombre;
     private String correo;
     private String telefono;
@@ -11,11 +11,11 @@ public class Cliente {
     private Boolean registrado;
     private List<Link> links;
 
-    public Long getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(int id) {
         this.id = id;
     }
 

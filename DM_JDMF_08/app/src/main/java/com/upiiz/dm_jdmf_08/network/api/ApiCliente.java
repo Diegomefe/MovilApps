@@ -20,8 +20,8 @@ public interface ApiCliente {
     Call<RespuestaClientes> obtenerClientes();
 
     //Solicita un cliente
-    @GET("/api/v1/cliente/{id}")
-    Call<RespuestaCliente> obtenerClientePorId();
+    @GET("/api/v1/clientes/{id}")
+    Call<RespuestaCliente> obtenerClientePorId(@Path("id") int id);
 
     //Crea un nuevo recurso (Cliente)
     @POST("/api/v1/clientes")
@@ -29,11 +29,11 @@ public interface ApiCliente {
 
     //Actualizar un cliente
     @PUT("/api/v1/clientes/{id}")
-    Call<RespuestaCliente> actualizarCliente(@Path("id") Long id, @Body PeticionClientes clienteAcatualizado);
+    Call<RespuestaCliente> actualizarCliente(@Path("id") int id, @Body PeticionClientes clienteAcatualizado);
 
     //Eliminar cliente por id
     @DELETE("/api/v1/clientes/{id}")
-    Call<RespuestaEliminarCliente> eliminarCliente(@Path("id") Long id);
+    Call<RespuestaEliminarCliente> eliminarCliente(@Path("id") int id);
 
 
 }
